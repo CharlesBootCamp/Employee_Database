@@ -1,0 +1,26 @@
+-- SQL file for exporting results
+
+DROP TABLE IF EXISTS results_my_retirement_title;
+
+CREATE TABLE results_my_retirement_title as 
+    select *
+    from my_retirement_titles
+;
+
+DROP TABLE IF EXISTS results_my_unique_title;
+
+CREATE TABLE results_my_unique_title as 
+    select *
+    from my_unique_titles;
+    
+DROP TABLE IF EXISTS results_my_retiring_title;
+
+CREATE TABLE results_my_retiring_title as 
+    select *
+    from my_retiring_titles;
+    
+DROP TABLE IF EXISTS results_my_mentorship_eligibility;
+
+CREATE TABLE results_my_mentorship_eligibility as 
+    select *
+    from my_mentorship_eligibility;
