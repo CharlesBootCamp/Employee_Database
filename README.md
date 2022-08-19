@@ -44,3 +44,5 @@ The table contains employee number, first name, last name, birth date, from date
 ## Summary
 Since Pewlett-Hackard is going to have a "silver tsunami" of retirements in the next few years, a good plan is very important, especially with such a large employee database. While the above reports do give a good description on how the company will be affected, I believe that including how many people in each position and department will be leaving will help the higher-ups figure out where potential new employees should start working, so that all parts of the company have an ample workforce. In order to make sure that there are still capable people that will be able to train all the new employees that will be coming in to replace those leaving, another scan is done over the group to check for all employees that were born in '65. Ultimately, this gives some good insight into how the company will change, but more data can still be collected.
 
+To make sure that I could get the data to transfer to the csv files correctly, I used extra SQL files, as well as combining the usage of Views and Tables to use the 6 given csv files to create the necessary 4.
+
